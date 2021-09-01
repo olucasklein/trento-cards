@@ -1,10 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
-* {
-  box-sizing: border-box;
-}
-
-:root {
+.pricing-cards {
   --ff: "Lato", sans-serif;
 
   --fw-n: 300;
@@ -26,9 +22,8 @@
   --shadow: 0 0 1em rgba(0, 0, 0, 0.25);
   --shadow2: 0 0 15em rgba(0, 0, 0, 0.25);
   --br: 5px;
-}
-
-body {
+  
+  box-sizing: border-box;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -40,7 +35,7 @@ body {
   
 }
 
-h2 {
+.pricing-cards h2 {
   font-size: var(--fs-2);
   font-weight: var(--fw-l);
   margin: 0 0 0.5em;
@@ -48,31 +43,31 @@ h2 {
   color: #3e2b56;
 }
 
-p {
+.pricing-cards p {
   margin: 0 0 var(--spacer);
 }
 
-.description p {
+.description-cards p {
   margin-bottom: 30px;
 }
 
-.big-number {
+.big-number-cards {
     font-size: 2rem;
     margin-right: 10px;
     color: #3e2b56;
 }
 
-.description {
+.description-cards {
     width: 50%;
     margin: 0 auto;
     color: #3e2b56;
 }
 
-strong {
+.pricing-cards strong {
   font-weight: var(--fw-m);
 }
 
-.button {
+.button-cards {
   display: inline-block;
   background: var(--primary-clr);
   color: white;
@@ -89,21 +84,21 @@ strong {
   margin-top: var(--spacer);
 }
 
-.button:hover {
+.button-cards:hover {
   color: black;
   box-shadow: var(--shadow2);
   padding: 1em 3.5em;
   transition: 1s;
 }
 
-.container {
+.container-cards {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
 }
 
-.pricing__grid {
+.pricing__grid-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: var(--spacer-md);
@@ -155,17 +150,17 @@ strong {
 }
 
 @media (max-width: 496px) {
-  body {
+  .container-cards  {
     height: 80%;
   }
 
-  h2 {
+  .pricing-cards h2 {
     font-size: (--fs-p);
   }
-  p {
+  .pricing-cards p {
     width: 100%;
   }
-  .pricing__grid {
+  .pricing__grid-cards {
     display: inline-block;
   }
   .card {
@@ -174,17 +169,17 @@ strong {
 }
 
 @media (max-width: 768px) {
-  body {
+  .container-cards {
     height: 80%;
   }
 
-  h2 {
+  .pricing-cards h2 {
     font-size: (--fs-p);
   }
-  p {
+  .pricing-cards p {
     width: 100%;
   }
-  .pricing__grid {
+  .pricing__grid-cards {
     display: inline-block;
   }
   .card {
