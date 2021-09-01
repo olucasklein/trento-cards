@@ -29,9 +29,7 @@
   align-items: center;
   justify-content: center;
   font-family: var(--ff);
-  /* background: url("/assets/bg.png") no-repeat fixed center; */
   background-color: #f0f8ff;
-  background-size: cover;
   
 }
 
@@ -92,7 +90,7 @@
 }
 
 .container-cards {
-  width: 80%;
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
