@@ -167,6 +167,24 @@
     margin-bottom: 30px;
   }
 }
+@media (max-width: 990px) {
+  .container-cards  {
+    height: 80%;
+  }
+
+  .pricing-cards h2 {
+    font-size: (--fs-p);
+  }
+  .pricing-cards p {
+    width: 100%;
+  }
+  .pricing__grid-cards {
+    display: inline-block;
+  }
+  .card {
+    margin-bottom: 30px;
+  }
+}
 
 @media (max-width: 768px) {
   .container-cards {
