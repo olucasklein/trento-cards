@@ -186,6 +186,7 @@
 @media (max-width: 990px) {
   .container-cards  {
     height: 80%;
+    overflow-x: hidden;
   }
 
   .pricing-cards h2 {
