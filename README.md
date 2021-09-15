@@ -1,4 +1,4 @@
-<div style="text-align: center;"> Trento Cards</div>
+# Trento Cards
 ## [Acesse a loja](https://link-url-here.org)
 ### Section de Cards para Planos, desenvolvido para o ecommerce Trento, utilizando HTML e CSS.
 
